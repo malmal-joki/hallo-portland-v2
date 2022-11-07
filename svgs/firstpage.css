@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Underdog&family=Zilla+Slab&display=swap');
+
+/*font-family: 'Pirata One', cursive;
+font-family: 'Underdog', cursive;
+font-family: 'Zilla Slab', serif;
+
+colors:
+ dark orange : hex F3944B
+ pale orange ; hex F4AF8F
+ rose : hex C28C88
+ mint : hex B0D2BC 
+ dark green : hex 655C37
+ purple : hex 8A6EB1
+*/
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ text-align: left;
+}
+
+.p2 {
+  margin: 0;
+  font-family: 'Zilla Slab', serif;
+  font-size: 21px;
+}
+
+.p1, h6{
+  font-family: 'Underdog', cursive;
+}
+p1 {
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 40px;
+  text-align: left;
+}
+h6{
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+h4, h5 {
+  font-family: 'Pirata One', cursive;
+}
+h4 {
+  font-size: 75px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 0px;
+}
+h5 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+
+.bar {
+  height: 30000px;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #f3944b;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'Underdog', cursive;
+  font-size: 30px;
+}
+#navbar a:hover {
+  color: #8A6EB1;
+}
+#navbar a.active {
+  color: #000;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.homepage h1 {
+  margin-left: -200px;
+}
+.homepage main {
+  display: flex;
+  width: 92%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.homepage main div {
+  flex: 1;
+}
+
+.hallo-txt {
+  color: #fff;
+}
+
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 1000px;
+    height: 100%;
+
+}
+
+#family-fun {
+  
+  padding-top: 110px;
+  background-color: #C28C88;
+  margin:auto;
+
+}
+* {box-sixin: border-box;}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    color: white;
+    background:black;
+    margin:0;
+}
+main {
+    display:flex;
+    width:90%;
+    margin:auto;
+    border-radius:20px;
+}
+
+main article {
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+#halloweentown-1 {
+  width: 150%;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  
+}
+#halloweentown-2 {
+  width: 90%;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  margin-left:-50px;
+  margin-top:-80px;
+  
+}
+
+.p1 {
+  
+}
+
+.p2 {
+ 
+  
+
+}
+.detais{
+  margin-right: auto;
+  border: 4px solid #fff;
+  border-radius: 12px;
+}
+
+
+
+#adventurous {
+    background-color: #B0D2BC;
+}
+
+#social {
+    background-color: #655C37;
+}
+
+#spooky {
+  background-color: #8A6EB1;
+}
