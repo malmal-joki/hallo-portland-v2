@@ -32,7 +32,7 @@ body {
   text-align: left;
 }
 
-.page-01 .p2 {
+.p2 {
   margin: 0;
   font-family: 'Zilla Slab', serif;
   font-size: 21px;
@@ -43,7 +43,7 @@ h6 {
   font-family: 'Underdog', cursive;
 }
 p1 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 30px;
   margin-top: 40px;
   text-align: left;
@@ -64,12 +64,25 @@ h4 {
   letter-spacing: 3px;
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 40px;
 }
 h5 {
   font-size: 30px;
   letter-spacing: 3px;
   text-align: left;
   margin-top: 0px;
+}
+
+.corn-bottom {
+  margin-top: 60px !important;
+  margin-right: -20px !important;
+}
+.social-bottom {
+  margin-right: -20px !important;
+}
+.spooky-bottom {
+  margin-right: -60px !important;
+  margin-top: 60px !important;
 }
 
 .bar {
@@ -140,7 +153,7 @@ h5 {
 /* 2nd page*/
 
 #family-fun {
-  padding-top: 110px;
+  padding-top: 120px;
   background-color: #c28c88;
   margin: auto;
 }
@@ -204,6 +217,7 @@ img {
 }
 
 #papa > #bottom-text {
+  font-family: 'Zilla Slab', serif;
   font-size: 25px;
   direction: ltr;
   display: block;
@@ -217,12 +231,11 @@ img {
   z-index: 1;
   direction: rtl;
   padding-bottom: 10%;
-  padding-top: 5%;
+  margin-top: 20px;
 }
 #pumpkin-img > img {
   direction: ltr;
   width: 150%;
-  opacity: 0.7;
 }
 
 .details {
@@ -237,13 +250,7 @@ img {
   display: block;
   line-height: 40px;
 }
-.corn-bottom {
-  margin-top: 220px !important;
-  margin-right: -20px !important;
-}
-.social-bottom {
-  margin-right: -20px !important;
-}
+
 .detais {
   flex-grow: 1;
   margin-right: auto;
@@ -258,6 +265,7 @@ img {
 /* 3rd page */
 #adventurous {
   padding-top: 110px;
+  padding-bottom: 72%;
   background-color: #b0d2bc;
   margin: auto;
 }
@@ -321,25 +329,24 @@ img {
 }
 
 #papa > #bottom-text {
+  font-family: 'Zilla Slab', serif;
   font-size: 25px;
   direction: ltr;
   display: block;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: px;
-  padding-top: 40%;
+  padding-top: 0%;
   width: 172%;
 }
 
 #corn-img {
   z-index: 1;
   direction: rtl;
-  padding-bottom: 10%;
   padding-top: 5%;
 }
 #corn-img > img {
   direction: ltr;
-  width: 150%;
-  opacity: 0.7;
+  width: 140%;
 }
 
 .details {
@@ -347,7 +354,7 @@ img {
   flex: 30%;
 }
 .p1 {
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 0px;
   padding-left: 5px;
   padding-right: 10px;
@@ -369,6 +376,7 @@ img {
 #social {
   background-color: #655c37;
   padding-top: 110px;
+  padding-bottom: 75%;
   margin: auto;
 }
 * {
@@ -402,17 +410,28 @@ main article {
   width: 60%;
 }
 
-#halloweentown-1 img {
+#ravensmanor-1 img {
   border: 4px solid #fff;
   border-radius: 12px;
+  width: 105%;
 }
-#halloweentown-2 img {
+#ravensmanor-2 img {
   border: 4px solid #fff;
   border-radius: 12px;
   margin-left: -40px;
   margin-top: -50px;
+  width: 70%;
+}
+#bat2-img {
+  z-index: 1;
+  direction: rtl;
+  padding-top: 10%;
+}
+#bat2-img > img {
+  align-items: left;
   width: 60%;
 }
+
 img {
   width: 100%;
 }
@@ -431,25 +450,24 @@ img {
 }
 
 #papa > #bottom-text {
+  font-family: 'Zilla Slab', serif;
   font-size: 25px;
   direction: ltr;
   display: block;
   margin-top: 40px;
   margin-right: 1px;
-  padding-top: -5%;
+  padding-top: 15%;
   width: 172%;
 }
 
-#pumpkin-img {
+#bat-img {
   z-index: 1;
   direction: rtl;
-  padding-bottom: 10%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
-#pumpkin-img > img {
+#bat-img > img {
   direction: ltr;
-  width: 150%;
-  opacity: 0.7;
+  width: 185%;
 }
 
 .details {
@@ -475,6 +493,125 @@ img {
   padding: 10px;
 }
 
+/* 5th page */
 #spooky {
-  background-color: #8a6eb1;
-}
+    padding-top: 110px;
+    padding-bottom: -200px;
+    margin: auto;
+    background-color: #8a6eb1;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    color: white;
+    background: #655c37;
+    margin: 0;
+  }
+  main {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  main article {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .flex-container {
+    width: 60%;
+  }
+  
+  #oakspark-1 img {
+    border: 4px solid #fff;
+    border-radius: 12px;
+    width: 105%;
+  }
+  #oakspark-2 img {
+    border: 4px solid #fff;
+    border-radius: 12px;
+    margin-left: -40px;
+    margin-top: -50px;
+    width: 70%;
+  }
+  #graveyard-img {
+    z-index: 1.5;
+    direction: rtl;
+    margin-top: -160px;
+    
+  }
+  #graveyard-img > img {
+    width: 155%;
+  }
+  img {
+    width: 100%;
+  }
+  .flexy-img {
+    flex: 30%;
+    flex-grow: 1;
+  }
+  .flexy-content {
+    flex: 50%;
+    z-index: 2;
+  }
+  
+  #papa {
+    z-index: 5;
+    direction: rtl;
+  }
+  
+  #papa > #bottom-text {
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    direction: ltr;
+    display: block;
+    margin-top: 40px;
+    margin-right: 1px;
+    padding-top: 15%;
+    width: 172%;
+  }
+  
+  #cat-img {
+    z-index: 1;
+    direction: rtl;
+    padding-bottom: 10%;
+    padding-top: 15%;
+    margin-left: 10px;
+  }
+  #cat-img > img {
+    direction: ltr;
+    width: 180%;
+
+  }
+  
+  .details {
+    z-index: 1;
+    flex: 30%;
+  }
+  .p1 {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    display: block;
+    line-height: 40px;
+  }
+  .detais {
+    flex-grow: 1;
+    margin-right: auto;
+  }
+  
+  #det {
+    border: 4px solid #fff;
+    border-radius: 12px;
+    padding: 10px;
+  }
