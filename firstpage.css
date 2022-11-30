@@ -551,7 +551,8 @@ img {
     
   }
   #graveyard-img > img {
-    width: 155%;
+    width: 150%;
+    padding-top: 10px;
   }
   img {
     width: 100%;
@@ -576,21 +577,19 @@ img {
     direction: ltr;
     display: block;
     margin-top: 40px;
-    margin-right: 1px;
+    /*margin-right: 1px;*/
     padding-top: 15%;
-    width: 172%;
+  
   }
   
-  #cat-img {
-    z-index: 1;
+  #cat-svg {
+    z-index: 0;
     direction: rtl;
-    padding-bottom: 10%;
-    padding-top: 40%;
-    margin-left: 30px;
+    padding-top: 35%;
   }
-  #cat-img > img {
-    direction: ltr;
-    width: 180%;
+  #cat-svg {
+    direction: rtl;
+    width: 125%;
 
   }
   
@@ -616,3 +615,38 @@ img {
     border-radius: 12px;
     padding: 10px;
   }
+
+  #cat-svg {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+  }
+  #eyes {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+  }
+  #eyes {
+    animation-duration: 3s;
+    animation-iteration-count: linear infinite;
+    transform-origin: center;
+    animation-name: blink;
+    animation-timing-function: ease-in;
+  }
+  
+  @keyframes move {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-120px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+  }
+  }
+  

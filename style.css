@@ -30,7 +30,7 @@ img  {
 #sparkle {
   width: 50%;
   padding-top: 50px;
-  padding-left: 150px;
+  padding-left: 165px;
 }
 
 body-type {
@@ -143,20 +143,35 @@ h1 {
   color: #fff;
 }
 
-/* Ghost Svg up-down
+/*
 #ghost {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
-  animation-name: bounce;
-  animation-timing-function: ease;
+  animation-name: float;
+  animation-timing-function: ease-in-out;
 }
 
-@keyframes bounce {
+@keyframes float {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-100px); }
+  50%  { transform: translateY(-2px); }
   100% { transform: translateY(0); }
 } */
+
+#sparkle {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  animation-name: twinkle;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes twinkle {
+  50% {
+    transform: scale(0.9);
+}
+}
+
 
 body {
   cursor: url("./imgs/cursor-sparkle.png"), auto;
